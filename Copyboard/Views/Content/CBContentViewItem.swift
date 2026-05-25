@@ -102,7 +102,7 @@ class CBContentViewItem: CBBaseContentViewItem {
 				}
 			}
 		default:
-			titleLabel.stringValue = .pluralized("%@ Items", items.count)
+			titleLabel.stringValue = .pluralized("%d Items", items.count)
 		}
 	}
 }
